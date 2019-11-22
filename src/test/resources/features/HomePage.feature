@@ -1,4 +1,4 @@
-@Regression @HomePage
+@Regression @Smoke @HomePage
 Feature: HomePage
 
 Background: Launching the application
