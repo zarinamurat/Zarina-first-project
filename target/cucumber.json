@@ -1,0 +1,189 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Launching the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13523741800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Theu user should be able to launch the application",
+            "match": {
+              "location": "HomePageStepDefs.theu_user_should_be_able_to_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 390077400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The homepage should be displayed",
+            "match": {
+              "location": "HomePageStepDefs.the_homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login",
+        "description": "",
+        "id": "homepage;login",
+        "after": [
+          {
+            "result": {
+              "duration": 2013965201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 881894101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters username and password",
+            "match": {
+              "location": "HomePageStepDefs.the_user_enters_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 922298499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks the login button",
+            "match": {
+              "location": "HomePageStepDefs.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277288200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be able to see the Welcome page",
+            "match": {
+              "location": "HomePageStepDefs.the_user_should_be_able_to_see_the_Welcome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 717512700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user clicks on Order button",
+            "match": {
+              "location": "OrderPageStepDefs.the_user_clicks_on_Order_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187392800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should be able to see the Order page",
+            "match": {
+              "location": "OrderPageStepDefs.the_user_should_ve_able_to_see_the_Order_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164925401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user sees the Product dropdown menu",
+            "match": {
+              "location": "OrderPageStepDefs.the_user_click_on_dropdown_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454892201,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should be able to make a selection from Dropdown menu",
+            "match": {
+              "location": "OrderPageStepDefs.the_user_should_be_able_to_make_a_selection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 674794400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user click on ViewAllOrders Link",
+            "match": {
+              "location": "ViewAllOrdersStepDefs.the_user_click_on_ViewAllOrders_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197023201,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user should be able to retrieve the value from the webtable",
+            "match": {
+              "location": "ViewAllOrdersStepDefs.the_user_should_be_able_to_retrieve_the_value_from_the_webtable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zarina"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\HomePage.feature",
+    "tags": [
+      {
+        "name": "@Zarina",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
